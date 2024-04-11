@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbiron', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #FFA500, #40E0D0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.6);
+}
+
+.relogio div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(5, 5, 5, 0.9);
+    height: 170px;
+    width: 150px;
+    color: #ffff;
+    border-radius: 7px;
+    letter-spacing: 2px;
+}
+
+.relogio span {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.relogio span.tempo {
+    font-size: 20px;
+}
