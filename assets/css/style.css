@@ -45,3 +45,25 @@ body {
 .relogio span.tempo {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 1020px)
+{
+    .relogio {
+        width: 50vh;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+       
+    }
+
+    .relogio div {
+        width: 100px;
+        height: 130px;
+        
+    }
+
+    .relogio span.tempo {
+        font-size: 14px;
+    }
+    
+}
